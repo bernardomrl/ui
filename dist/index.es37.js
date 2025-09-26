@@ -1,0 +1,16 @@
+import { j as o } from "./index.es49.js";
+import { cn as n } from "./index.es47.js";
+function a({ className: t, ...e }) {
+  return /* @__PURE__ */ o.jsx(
+    "div",
+    {
+      "data-slot": "skeleton",
+      className: n("bg-accent animate-pulse rounded-md", t),
+      ...e
+    }
+  );
+}
+export {
+  a as Skeleton
+};
+//# sourceMappingURL=index.es37.js.map

@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const t=require("./index.cjs49.js"),o=require("sonner"),s=require("./index.cjs48.js"),n=({...e})=>{const{theme:r="system"}=s.useTheme();return t.jsxRuntimeExports.jsx(o.Toaster,{theme:r,className:"toaster group",style:{"--normal-bg":"var(--popover)","--normal-text":"var(--popover-foreground)","--normal-border":"var(--border)"},...e})};exports.Toaster=n;
+//# sourceMappingURL=index.cjs39.js.map
