@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Cache
+*.log
+*.tsbuildinfo
+.vite/
+
+# Test coverage
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Ignore config files you don't want Prettier to touch
+*.lock
+*.cache
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
