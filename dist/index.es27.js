@@ -1,113 +1,115 @@
-import { j as t } from "./index.es49.js";
-import { ChevronLeftIcon as r, ChevronRightIcon as l, MoreHorizontalIcon as c } from "lucide-react";
-import { cn as i } from "./index.es47.js";
-import { buttonVariants as p } from "./index.es9.js";
-function d({ className: a, ...n }) {
-  return /* @__PURE__ */ t.jsx(
+import { jsx as i, jsxs as e } from "react/jsx-runtime";
+import l from "./index.es61.js";
+import c from "./index.es57.js";
+import p from "./index.es58.js";
+import { cn as t } from "./index.es48.js";
+import { buttonVariants as m } from "./index.es9.js";
+function N({ className: a, ...n }) {
+  return /* @__PURE__ */ i(
     "nav",
     {
       role: "navigation",
       "aria-label": "pagination",
       "data-slot": "pagination",
-      className: i("mx-auto flex w-full justify-center", a),
+      className: t("mx-auto flex w-full justify-center", a),
       ...n
     }
   );
 }
-function f({ className: a, ...n }) {
-  return /* @__PURE__ */ t.jsx(
+function P({ className: a, ...n }) {
+  return /* @__PURE__ */ i(
     "ul",
     {
       "data-slot": "pagination-content",
-      className: i("flex flex-row items-center gap-1", a),
+      className: t("flex flex-row items-center gap-1", a),
       ...n
     }
   );
 }
-function j({ ...a }) {
-  return /* @__PURE__ */ t.jsx("li", { "data-slot": "pagination-item", ...a });
+function v({ ...a }) {
+  return /* @__PURE__ */ i("li", { "data-slot": "pagination-item", ...a });
 }
-function e({
+function o({
   className: a,
   isActive: n,
-  size: s = "icon",
-  ...o
+  size: r = "icon",
+  ...s
 }) {
-  return /* @__PURE__ */ t.jsx(
+  return /* @__PURE__ */ i(
     "a",
     {
       "aria-current": n ? "page" : void 0,
       "data-slot": "pagination-link",
       "data-active": n,
-      className: i(
-        p({
+      className: t(
+        m({
           variant: n ? "outline" : "ghost",
-          size: s
+          size: r
         }),
         a
       ),
-      ...o
+      ...s
     }
   );
 }
-function h({
+function b({
   className: a,
   ...n
 }) {
-  return /* @__PURE__ */ t.jsxs(
-    e,
+  return /* @__PURE__ */ e(
+    o,
     {
       "aria-label": "Go to previous page",
       size: "default",
-      className: i("gap-1 px-2.5 sm:pl-2.5", a),
+      className: t("gap-1 px-2.5 sm:pl-2.5", a),
       ...n,
       children: [
-        /* @__PURE__ */ t.jsx(r, {}),
-        /* @__PURE__ */ t.jsx("span", { className: "hidden sm:block", children: "Previous" })
+        /* @__PURE__ */ i(l, {}),
+        /* @__PURE__ */ i("span", { className: "hidden sm:block", children: "Previous" })
       ]
     }
   );
 }
-function N({
+function j({
   className: a,
   ...n
 }) {
-  return /* @__PURE__ */ t.jsxs(
-    e,
+  return /* @__PURE__ */ e(
+    o,
     {
       "aria-label": "Go to next page",
       size: "default",
-      className: i("gap-1 px-2.5 sm:pr-2.5", a),
+      className: t("gap-1 px-2.5 sm:pr-2.5", a),
       ...n,
       children: [
-        /* @__PURE__ */ t.jsx("span", { className: "hidden sm:block", children: "Next" }),
-        /* @__PURE__ */ t.jsx(l, {})
+        /* @__PURE__ */ i("span", { className: "hidden sm:block", children: "Next" }),
+        /* @__PURE__ */ i(c, {})
       ]
     }
   );
 }
-function P({ className: a, ...n }) {
-  return /* @__PURE__ */ t.jsxs(
+function k({ className: a, ...n }) {
+  return /* @__PURE__ */ e(
     "span",
     {
       "aria-hidden": !0,
       "data-slot": "pagination-ellipsis",
-      className: i("flex size-9 items-center justify-center", a),
+      className: t("flex size-9 items-center justify-center", a),
       ...n,
       children: [
-        /* @__PURE__ */ t.jsx(c, { className: "size-4" }),
-        /* @__PURE__ */ t.jsx("span", { className: "sr-only", children: "More pages" })
+        /* @__PURE__ */ i(p, { className: "size-4" }),
+        /* @__PURE__ */ i("span", { className: "sr-only", children: "More pages" })
       ]
     }
   );
 }
 export {
-  d as Pagination,
-  f as PaginationContent,
-  P as PaginationEllipsis,
-  j as PaginationItem,
-  e as PaginationLink,
-  N as PaginationNext,
-  h as PaginationPrevious
+  N as Pagination,
+  P as PaginationContent,
+  k as PaginationEllipsis,
+  v as PaginationItem,
+  o as PaginationLink,
+  j as PaginationNext,
+  b as PaginationPrevious
 };
 //# sourceMappingURL=index.es27.js.map

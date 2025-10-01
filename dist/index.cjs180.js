@@ -1,0 +1,2 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const t=require("./index.cjs360.js"),o=require("./index.cjs361.js"),a=require("./index.cjs362.js"),r=require("./index.cjs363.js"),i=require("./index.cjs364.js"),e={code:"en-US",formatDistance:t.formatDistance,formatLong:o.formatLong,formatRelative:a.formatRelative,localize:r.localize,match:i.match,options:{weekStartsOn:0,firstWeekContainsDate:1}};exports.default=e;exports.enUS=e;
+//# sourceMappingURL=index.cjs180.js.map

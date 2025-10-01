@@ -1,8 +1,8 @@
-import { j as s } from "./index.es49.js";
-import { Slot as a } from "@radix-ui/react-slot";
-import { cva as d } from "class-variance-authority";
-import { cn as u } from "./index.es47.js";
-const c = d(
+import { jsx as o } from "react/jsx-runtime";
+import { Root as a } from "./index.es56.js";
+import { cva as s } from "./index.es53.js";
+import { cn as d } from "./index.es48.js";
+const u = s(
   "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
   {
     variants: {
@@ -34,18 +34,17 @@ function b({
   asChild: i = !1,
   ...n
 }) {
-  const o = i ? a : "button";
-  return /* @__PURE__ */ s.jsx(
-    o,
+  return /* @__PURE__ */ o(
+    i ? a : "button",
     {
       "data-slot": "button",
-      className: u(c({ variant: r, size: t, className: e })),
+      className: d(u({ variant: r, size: t, className: e })),
       ...n
     }
   );
 }
 export {
   b as Button,
-  c as buttonVariants
+  u as buttonVariants
 };
 //# sourceMappingURL=index.es9.js.map

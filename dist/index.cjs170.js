@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});function m(t,a,i,s,f=!1){if(!t||!a)return;const{startOfYear:l,endOfYear:u,addYears:d,getYear:Y,isBefore:c,isSameYear:p}=s,g=l(t),n=u(a),r=[];let e=g;for(;c(e,n)||p(e,n);)r.push(e),e=d(e,1);return f&&r.reverse(),r.map(o=>{const O=i.formatYearDropdown(o,s);return{value:Y(o),label:O,disabled:!1}})}exports.getYearOptions=m;
+//# sourceMappingURL=index.cjs170.js.map

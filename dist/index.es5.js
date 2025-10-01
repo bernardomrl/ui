@@ -1,11 +1,11 @@
-import { j as o } from "./index.es49.js";
-import * as i from "@radix-ui/react-aspect-ratio";
-function s({
+import { jsx as o } from "react/jsx-runtime";
+import { Root as r } from "./index.es54.js";
+function p({
   ...t
 }) {
-  return /* @__PURE__ */ o.jsx(i.Root, { "data-slot": "aspect-ratio", ...t });
+  return /* @__PURE__ */ o(r, { "data-slot": "aspect-ratio", ...t });
 }
 export {
-  s as AspectRatio
+  p as AspectRatio
 };
 //# sourceMappingURL=index.es5.js.map

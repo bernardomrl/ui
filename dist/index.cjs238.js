@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const i=require("./index.cjs161.js");class s{constructor(t,e,a=i.defaultDateLib){this.date=t,this.displayMonth=e,this.outside=!!(e&&!a.isSameMonth(t,e)),this.dateLib=a}isEqualTo(t){return this.dateLib.isSameDay(t.date,this.date)&&this.dateLib.isSameMonth(t.displayMonth,this.displayMonth)}}exports.CalendarDay=s;
+//# sourceMappingURL=index.cjs238.js.map

@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const g=require("./index.cjs302.js"),_=require("./index.cjs303.js");var r,t;function f(){if(t)return r;t=1;var i=g.__require(),u=_.__require(),c="[object AsyncFunction]",o="[object Function]",a="[object GeneratorFunction]",s="[object Proxy]";function b(n){if(!u(n))return!1;var e=i(n);return e==o||e==a||e==c||e==s}return r=b,r}exports.__require=f;
+//# sourceMappingURL=index.cjs301.js.map

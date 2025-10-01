@@ -1,12 +1,12 @@
-import { j as o } from "./index.es49.js";
-import * as a from "@radix-ui/react-label";
-import { cn as r } from "./index.es47.js";
-function s({
+import { jsx as o } from "react/jsx-runtime";
+import { Root as a } from "./index.es82.js";
+import { cn as r } from "./index.es48.js";
+function l({
   className: e,
   ...t
 }) {
-  return /* @__PURE__ */ o.jsx(
-    a.Root,
+  return /* @__PURE__ */ o(
+    a,
     {
       "data-slot": "label",
       className: r(
@@ -18,6 +18,6 @@ function s({
   );
 }
 export {
-  s as Label
+  l as Label
 };
 //# sourceMappingURL=index.es24.js.map

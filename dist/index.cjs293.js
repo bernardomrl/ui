@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const f=require("./index.cjs288.js");function y(i,S){const{selected:s,required:c,onSelect:t}=i,[r,a]=f.useControlledValue(s,t?s:void 0),e=t?s:r,{isSameDay:u}=S;return{selected:e,select:(l,o,d)=>{let n=l;return!c&&e&&e&&u(l,e)&&(n=void 0),t||a(n),t?.(n,l,o,d),n},isSelected:l=>e?u(e,l):!1}}exports.useSingle=y;
+//# sourceMappingURL=index.cjs293.js.map

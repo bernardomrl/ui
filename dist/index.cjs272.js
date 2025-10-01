@@ -1,0 +1,2 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const l=require("./index.cjs448.js"),c=require("./index.cjs443.js");function o(r,e){const s=l.getDefaultOptions(),a=e?.weekStartsOn??e?.locale?.options?.weekStartsOn??s.weekStartsOn??s.locale?.options?.weekStartsOn??0,t=c.toDate(r,e?.in),n=t.getDay(),u=(n<a?7:0)+n-a;return t.setDate(t.getDate()-u),t.setHours(0,0,0,0),t}exports.default=o;exports.startOfWeek=o;
+//# sourceMappingURL=index.cjs272.js.map

@@ -1,6 +1,6 @@
-import { j as e } from "./index.es49.js";
-import { cva as i } from "class-variance-authority";
-import { cn as a } from "./index.es47.js";
+import { jsx as e } from "react/jsx-runtime";
+import { cva as i } from "./index.es53.js";
+import { cn as a } from "./index.es48.js";
 const l = i(
   "relative w-full rounded-lg border px-4 py-3 text-sm grid has-[>svg]:grid-cols-[calc(var(--spacing)*4)_1fr] grid-cols-[0_1fr] has-[>svg]:gap-x-3 gap-y-0.5 items-start [&>svg]:size-4 [&>svg]:translate-y-0.5 [&>svg]:text-current",
   {
@@ -20,7 +20,7 @@ function c({
   variant: r,
   ...s
 }) {
-  return /* @__PURE__ */ e.jsx(
+  return /* @__PURE__ */ e(
     "div",
     {
       "data-slot": "alert",
@@ -31,7 +31,7 @@ function c({
   );
 }
 function g({ className: t, ...r }) {
-  return /* @__PURE__ */ e.jsx(
+  return /* @__PURE__ */ e(
     "div",
     {
       "data-slot": "alert-title",
@@ -44,7 +44,7 @@ function g({ className: t, ...r }) {
   );
 }
 function u({ className: t, ...r }) {
-  return /* @__PURE__ */ e.jsx(
+  return /* @__PURE__ */ e(
     "div",
     {
       "data-slot": "alert-description",

@@ -1,0 +1,2 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const s=require("./index.cjs465.js"),d=.8908130915292852,l=s.sin(s.pi/10)/s.sin(7*s.pi/10),T=s.sin(s.tau/10)*l,k=-s.cos(s.tau/10)*l,m={draw(o,u){const t=s.sqrt(u*d),e=T*t,n=k*t;o.moveTo(0,-t),o.lineTo(e,n);for(let i=1;i<5;++i){const r=s.tau*i/5,c=s.cos(r),a=s.sin(r);o.lineTo(a*t,-c*t),o.lineTo(c*e-a*n,a*e+c*n)}o.closePath()}};exports.default=m;
+//# sourceMappingURL=index.cjs223.js.map

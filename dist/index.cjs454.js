@@ -1,0 +1,2 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const a=require("./index.cjs442.js"),c=require("./index.cjs443.js");function o(n,r){const t=c.toDate(n,r?.in),s=t.getFullYear(),u=t.getMonth(),e=a.constructFrom(t,0);return e.setFullYear(s,u+1,0),e.setHours(0,0,0,0),e.getDate()}exports.default=o;exports.getDaysInMonth=o;
+//# sourceMappingURL=index.cjs454.js.map

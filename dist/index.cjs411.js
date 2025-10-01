@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const b=require("./index.cjs351.js");var a,s;function q(){if(s)return a;s=1;var f=b.__require();function h(_,u){return function(e,t){if(e==null)return e;if(!f(e))return _(e,t);for(var i=e.length,r=u?i:-1,n=Object(e);(u?r--:++r<i)&&t(n[r],r,n)!==!1;);return e}}return a=h,a}exports.__require=q;
+//# sourceMappingURL=index.cjs411.js.map

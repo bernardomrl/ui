@@ -1,0 +1,2 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});function n(r){var o,e,t="";if(typeof r=="string"||typeof r=="number")t+=r;else if(typeof r=="object")if(Array.isArray(r)){var u=r.length;for(o=0;o<u;o++)r[o]&&(e=n(r[o]))&&(t&&(t+=" "),t+=e)}else for(e in r)r[e]&&(t&&(t+=" "),t+=e);return t}function f(){for(var r,o,e=0,t="",u=arguments.length;e<u;e++)(r=arguments[e])&&(o=n(r))&&(t&&(t+=" "),t+=o);return t}exports.clsx=f;exports.default=f;
+//# sourceMappingURL=index.cjs101.js.map

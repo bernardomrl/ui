@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const i=require("./index.cjs291.js"),r=require("./index.cjs292.js"),c=require("./index.cjs293.js");function l(e,n){const u=c.useSingle(e,n),t=i.useMulti(e,n),s=r.useRange(e,n);switch(e.mode){case"single":return u;case"multiple":return t;case"range":return s;default:return}}exports.useSelection=l;
+//# sourceMappingURL=index.cjs177.js.map

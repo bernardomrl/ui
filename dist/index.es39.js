@@ -1,9 +1,9 @@
-import { j as e } from "./index.es49.js";
-import { Toaster as t } from "sonner";
-import { useTheme as s } from "./index.es48.js";
+import { jsx as e } from "react/jsx-runtime";
+import { Toaster as t } from "./index.es96.js";
+import { useTheme as s } from "./index.es49.js";
 const n = ({ ...r }) => {
   const { theme: o = "system" } = s();
-  return /* @__PURE__ */ e.jsx(
+  return /* @__PURE__ */ e(
     t,
     {
       theme: o,

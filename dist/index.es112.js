@@ -1,0 +1,14 @@
+import * as e from "react";
+import { useLayoutEffect as a } from "./index.es105.js";
+var s = e[" useId ".trim().toString()] || (() => {
+}), i = 0;
+function d(r) {
+  const [t, o] = e.useState(s());
+  return a(() => {
+    o((u) => u ?? String(i++));
+  }, [r]), t ? `radix-${t}` : "";
+}
+export {
+  d as useId
+};
+//# sourceMappingURL=index.es112.js.map

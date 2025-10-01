@@ -1,16 +1,16 @@
-import { j as o } from "./index.es49.js";
-import { cn as n } from "./index.es47.js";
-function a({ className: t, ...e }) {
-  return /* @__PURE__ */ o.jsx(
+import { jsx as o } from "react/jsx-runtime";
+import { cn as n } from "./index.es48.js";
+function m({ className: e, ...t }) {
+  return /* @__PURE__ */ o(
     "div",
     {
       "data-slot": "skeleton",
-      className: n("bg-accent animate-pulse rounded-md", t),
-      ...e
+      className: n("bg-accent animate-pulse rounded-md", e),
+      ...t
     }
   );
 }
 export {
-  a as Skeleton
+  m as Skeleton
 };
 //# sourceMappingURL=index.es37.js.map

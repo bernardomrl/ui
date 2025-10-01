@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const o={},s={};function a(t,r){try{const f=(o[t]||=new Intl.DateTimeFormat("en-US",{timeZone:t,timeZoneName:"longOffset"}).format)(r).split("GMT")[1];return f in s?s[f]:e(f,f.split(":"))}catch{if(t in s)return s[t];const n=t?.match(u);return n?e(t,n.slice(1)):NaN}}const u=/([+-]\d\d):?(\d\d)?/;function e(t,r){const n=+(r[0]||0),f=+(r[1]||0),c=+(r[2]||0)/60;return s[t]=n*60+f>0?n*60+f+c:n*60-f-c}exports.tzOffset=a;
+//# sourceMappingURL=index.cjs237.js.map

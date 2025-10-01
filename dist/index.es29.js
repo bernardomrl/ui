@@ -1,32 +1,32 @@
-import { j as r } from "./index.es49.js";
-import * as o from "@radix-ui/react-progress";
-import { cn as l } from "./index.es47.js";
-function n({
-  className: s,
-  value: t,
-  ...a
+import { jsx as r } from "react/jsx-runtime";
+import { Root as a, Indicator as s } from "./index.es86.js";
+import { cn as e } from "./index.es48.js";
+function m({
+  className: o,
+  value: l,
+  ...t
 }) {
-  return /* @__PURE__ */ r.jsx(
-    o.Root,
+  return /* @__PURE__ */ r(
+    a,
     {
       "data-slot": "progress",
-      className: l(
+      className: e(
         "bg-primary/20 relative h-2 w-full overflow-hidden rounded-full",
-        s
+        o
       ),
-      ...a,
-      children: /* @__PURE__ */ r.jsx(
-        o.Indicator,
+      ...t,
+      children: /* @__PURE__ */ r(
+        s,
         {
           "data-slot": "progress-indicator",
           className: "bg-primary h-full w-full flex-1 transition-all",
-          style: { transform: `translateX(-${100 - (t || 0)}%)` }
+          style: { transform: `translateX(-${100 - (l || 0)}%)` }
         }
       )
     }
   );
 }
 export {
-  n as Progress
+  m as Progress
 };
 //# sourceMappingURL=index.es29.js.map

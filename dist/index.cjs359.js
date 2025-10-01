@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const d=require("./index.cjs432.js");var e,t;function v(){if(t)return e;t=1;var i=d.__require(),u=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g,o=/\\(\\)?/g,n=i(function(a){var r=[];return a.charCodeAt(0)===46&&r.push(""),a.replace(u,function(p,s,c,h){r.push(c?h.replace(o,"$1"):s||p)}),r});return e=n,e}exports.__require=v;
+//# sourceMappingURL=index.cjs359.js.map

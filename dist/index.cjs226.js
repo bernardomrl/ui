@@ -1,0 +1,2 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const T=require("./index.cjs465.js"),o={draw(e,i){const l=T.sqrt(i/5)/2;e.moveTo(-3*l,-l),e.lineTo(-l,-l),e.lineTo(-l,-3*l),e.lineTo(l,-3*l),e.lineTo(l,-l),e.lineTo(3*l,-l),e.lineTo(3*l,l),e.lineTo(l,l),e.lineTo(l,3*l),e.lineTo(-l,3*l),e.lineTo(-l,l),e.lineTo(-3*l,l),e.closePath()}};exports.default=o;
+//# sourceMappingURL=index.cjs226.js.map

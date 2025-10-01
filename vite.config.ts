@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 
-import { peerDependencies, dependencies } from './package.json';
+import { peerDependencies } from './package.json';
 
 export default defineConfig({
 	plugins: [react(), tailwindcss(), dts({ include: ['src/**/*'] })],
@@ -16,7 +16,11 @@ export default defineConfig({
 			fileName: (ext) => `index.${ext}.js`,
 		},
 		rollupOptions: {
-			external: [...Object.keys(peerDependencies), ...Object.keys(dependencies)],
+			external: [
+				...Object.keys(peerDependencies),
+				'react/jsx-runtime',
+				'react/jsx-dev-runtime',
+			],
 			output: { preserveModules: true, exports: 'named' },
 		},
 		target: 'esnext',

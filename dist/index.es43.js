@@ -1,63 +1,63 @@
-import { j as n } from "./index.es49.js";
-import * as s from "@radix-ui/react-toggle-group";
-import * as d from "react";
-import { toggleVariants as m } from "./index.es44.js";
-import { cn as l } from "./index.es47.js";
-const u = d.createContext({
+import { jsx as i } from "react/jsx-runtime";
+import { Root as u, Item as m } from "./index.es98.js";
+import * as s from "react";
+import { toggleVariants as g } from "./index.es44.js";
+import { cn as d } from "./index.es48.js";
+const l = s.createContext({
   size: "default",
   variant: "default"
 });
-function c({
-  className: a,
+function x({
+  className: r,
   variant: o,
   size: t,
   children: e,
-  ...i
+  ...n
 }) {
-  return /* @__PURE__ */ n.jsx(
-    s.Root,
+  return /* @__PURE__ */ i(
+    u,
     {
       "data-slot": "toggle-group",
       "data-variant": o,
       "data-size": t,
-      className: l(
+      className: d(
         "group/toggle-group flex w-fit items-center rounded-md data-[variant=outline]:shadow-xs",
-        a
+        r
       ),
-      ...i,
-      children: /* @__PURE__ */ n.jsx(u.Provider, { value: { variant: o, size: t }, children: e })
+      ...n,
+      children: /* @__PURE__ */ i(l.Provider, { value: { variant: o, size: t }, children: e })
     }
   );
 }
-function x({
-  className: a,
+function z({
+  className: r,
   children: o,
   variant: t,
   size: e,
-  ...i
+  ...n
 }) {
-  const r = d.useContext(u);
-  return /* @__PURE__ */ n.jsx(
-    s.Item,
+  const a = s.useContext(l);
+  return /* @__PURE__ */ i(
+    m,
     {
       "data-slot": "toggle-group-item",
-      "data-variant": r.variant || t,
-      "data-size": r.size || e,
-      className: l(
-        m({
-          variant: r.variant || t,
-          size: r.size || e
+      "data-variant": a.variant || t,
+      "data-size": a.size || e,
+      className: d(
+        g({
+          variant: a.variant || t,
+          size: a.size || e
         }),
         "min-w-0 flex-1 shrink-0 rounded-none shadow-none first:rounded-l-md last:rounded-r-md focus:z-10 focus-visible:z-10 data-[variant=outline]:border-l-0 data-[variant=outline]:first:border-l",
-        a
+        r
       ),
-      ...i,
+      ...n,
       children: o
     }
   );
 }
 export {
-  c as ToggleGroup,
-  x as ToggleGroupItem
+  x as ToggleGroup,
+  z as ToggleGroupItem
 };
 //# sourceMappingURL=index.es43.js.map

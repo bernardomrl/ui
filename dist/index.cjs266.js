@@ -1,0 +1,2 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const n=require("./index.cjs442.js"),s=require("./index.cjs443.js");function u(c,i){let t,e=i?.in;return c.forEach(o=>{!e&&typeof o=="object"&&(e=n.constructFrom.bind(null,o));const r=s.toDate(o,e);(!t||t>r||isNaN(+r))&&(t=r)}),n.constructFrom(e,t||NaN)}exports.default=u;exports.min=u;
+//# sourceMappingURL=index.cjs266.js.map

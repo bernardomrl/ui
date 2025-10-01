@@ -1,0 +1,2 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const r=require("./index.cjs444.js");function n(t,o){return typeof t=="function"?t(o):t&&typeof t=="object"&&r.constructFromSymbol in t?t[r.constructFromSymbol](o):t instanceof Date?new t.constructor(o):new Date(o)}exports.constructFrom=n;exports.default=n;
+//# sourceMappingURL=index.cjs442.js.map

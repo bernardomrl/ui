@@ -1,8 +1,8 @@
-import { j as o } from "./index.es49.js";
-import { Slot as n } from "@radix-ui/react-slot";
-import { cva as s } from "class-variance-authority";
-import { cn as d } from "./index.es47.js";
-const c = s(
+import { jsx as a } from "react/jsx-runtime";
+import { Root as o } from "./index.es56.js";
+import { cva as n } from "./index.es53.js";
+import { cn as s } from "./index.es48.js";
+const d = n(
   "inline-flex items-center justify-center rounded-md border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden",
   {
     variants: {
@@ -24,18 +24,17 @@ function b({
   asChild: t = !1,
   ...i
 }) {
-  const a = t ? n : "span";
-  return /* @__PURE__ */ o.jsx(
-    a,
+  return /* @__PURE__ */ a(
+    t ? o : "span",
     {
       "data-slot": "badge",
-      className: d(c({ variant: e }), r),
+      className: s(d({ variant: e }), r),
       ...i
     }
   );
 }
 export {
   b as Badge,
-  c as badgeVariants
+  d as badgeVariants
 };
 //# sourceMappingURL=index.es7.js.map

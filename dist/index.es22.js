@@ -1,15 +1,15 @@
-import { j as e } from "./index.es49.js";
-import { OTPInput as u, OTPInputContext as c } from "input-otp";
-import { MinusIcon as l } from "lucide-react";
+import { jsx as e, jsxs as u } from "react/jsx-runtime";
+import { OTPInput as c, OTPInputContext as l } from "./index.es80.js";
 import * as p from "react";
-import { cn as a } from "./index.es47.js";
-function b({
+import m from "./index.es81.js";
+import { cn as a } from "./index.es48.js";
+function g({
   className: t,
   containerClassName: r,
   ...i
 }) {
-  return /* @__PURE__ */ e.jsx(
-    u,
+  return /* @__PURE__ */ e(
+    c,
     {
       "data-slot": "input-otp",
       containerClassName: a(
@@ -21,8 +21,8 @@ function b({
     }
   );
 }
-function g({ className: t, ...r }) {
-  return /* @__PURE__ */ e.jsx(
+function h({ className: t, ...r }) {
+  return /* @__PURE__ */ e(
     "div",
     {
       "data-slot": "input-otp-group",
@@ -31,13 +31,13 @@ function g({ className: t, ...r }) {
     }
   );
 }
-function j({
+function O({
   index: t,
   className: r,
   ...i
 }) {
-  const n = p.useContext(c), { char: o, hasFakeCaret: s, isActive: d } = n?.slots[t] ?? {};
-  return /* @__PURE__ */ e.jsxs(
+  const n = p.useContext(l), { char: o, hasFakeCaret: s, isActive: d } = n?.slots[t] ?? {};
+  return /* @__PURE__ */ u(
     "div",
     {
       "data-slot": "input-otp-slot",
@@ -49,18 +49,18 @@ function j({
       ...i,
       children: [
         o,
-        s && /* @__PURE__ */ e.jsx("div", { className: "pointer-events-none absolute inset-0 flex items-center justify-center", children: /* @__PURE__ */ e.jsx("div", { className: "animate-caret-blink bg-foreground h-4 w-px duration-1000" }) })
+        s && /* @__PURE__ */ e("div", { className: "pointer-events-none absolute inset-0 flex items-center justify-center", children: /* @__PURE__ */ e("div", { className: "animate-caret-blink bg-foreground h-4 w-px duration-1000" }) })
       ]
     }
   );
 }
-function h({ ...t }) {
-  return /* @__PURE__ */ e.jsx("div", { "data-slot": "input-otp-separator", role: "separator", ...t, children: /* @__PURE__ */ e.jsx(l, {}) });
+function P({ ...t }) {
+  return /* @__PURE__ */ e("div", { "data-slot": "input-otp-separator", role: "separator", ...t, children: /* @__PURE__ */ e(m, {}) });
 }
 export {
-  b as InputOTP,
-  g as InputOTPGroup,
-  h as InputOTPSeparator,
-  j as InputOTPSlot
+  g as InputOTP,
+  h as InputOTPGroup,
+  P as InputOTPSeparator,
+  O as InputOTPSlot
 };
 //# sourceMappingURL=index.es22.js.map

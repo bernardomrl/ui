@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const r=require("react"),T=require("./index.cjs289.js"),v=require("./index.cjs290.js");function y(c,e,a,F,i){const{autoFocus:d}=c,[f,g]=r.useState(),n=T.calculateFocusTarget(e.days,a,F||(()=>!1),f),[s,t]=r.useState(d?n:void 0);return{isFocusTarget:u=>!!n?.isEqualTo(u),setFocused:t,focused:s,blur:()=>{g(s),t(void 0)},moveFocus:(u,l)=>{if(!s)return;const o=v.getNextFocus(u,l,s,e.navStart,e.navEnd,c,i);o&&(e.goToDay(o),t(o))}}}exports.useFocus=y;
+//# sourceMappingURL=index.cjs176.js.map

@@ -1,31 +1,31 @@
-import { j as e } from "./index.es49.js";
-import * as o from "@radix-ui/react-alert-dialog";
-import { buttonVariants as r } from "./index.es9.js";
-import { cn as l } from "./index.es47.js";
-function g({
+import { jsx as e, jsxs as r } from "react/jsx-runtime";
+import { Root as n, Portal as i, Overlay as s, Trigger as d, Content as c, Title as g, Description as u, Action as f, Cancel as m } from "./index.es52.js";
+import { buttonVariants as l } from "./index.es9.js";
+import { cn as o } from "./index.es48.js";
+function b({
   ...t
 }) {
-  return /* @__PURE__ */ e.jsx(o.Root, { "data-slot": "alert-dialog", ...t });
+  return /* @__PURE__ */ e(n, { "data-slot": "alert-dialog", ...t });
 }
-function u({
+function y({
   ...t
 }) {
-  return /* @__PURE__ */ e.jsx(o.Trigger, { "data-slot": "alert-dialog-trigger", ...t });
+  return /* @__PURE__ */ e(d, { "data-slot": "alert-dialog-trigger", ...t });
 }
-function n({
+function p({
   ...t
 }) {
-  return /* @__PURE__ */ e.jsx(o.Portal, { "data-slot": "alert-dialog-portal", ...t });
+  return /* @__PURE__ */ e(i, { "data-slot": "alert-dialog-portal", ...t });
 }
-function i({
+function x({
   className: t,
   ...a
 }) {
-  return /* @__PURE__ */ e.jsx(
-    o.Overlay,
+  return /* @__PURE__ */ e(
+    s,
     {
       "data-slot": "alert-dialog-overlay",
-      className: l(
+      className: o(
         "data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 fixed inset-0 z-50 bg-black/50",
         t
       ),
@@ -33,17 +33,17 @@ function i({
     }
   );
 }
-function m({
+function T({
   className: t,
   ...a
 }) {
-  return /* @__PURE__ */ e.jsxs(n, { children: [
-    /* @__PURE__ */ e.jsx(i, {}),
-    /* @__PURE__ */ e.jsx(
-      o.Content,
+  return /* @__PURE__ */ r(p, { children: [
+    /* @__PURE__ */ e(x, {}),
+    /* @__PURE__ */ e(
+      c,
       {
         "data-slot": "alert-dialog-content",
-        className: l(
+        className: o(
           "bg-background data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 fixed top-[50%] left-[50%] z-50 grid w-full max-w-[calc(100%-2rem)] translate-x-[-50%] translate-y-[-50%] gap-4 rounded-lg border p-6 shadow-lg duration-200 sm:max-w-lg",
           t
         ),
@@ -52,35 +52,48 @@ function m({
     )
   ] });
 }
-function f({ className: t, ...a }) {
-  return /* @__PURE__ */ e.jsx(
+function w({ className: t, ...a }) {
+  return /* @__PURE__ */ e(
     "div",
     {
       "data-slot": "alert-dialog-header",
-      className: l("flex flex-col gap-2 text-center sm:text-left", t),
+      className: o("flex flex-col gap-2 text-center sm:text-left", t),
       ...a
     }
   );
 }
-function x({ className: t, ...a }) {
-  return /* @__PURE__ */ e.jsx(
+function C({ className: t, ...a }) {
+  return /* @__PURE__ */ e(
     "div",
     {
       "data-slot": "alert-dialog-footer",
-      className: l("flex flex-col-reverse gap-2 sm:flex-row sm:justify-end", t),
+      className: o("flex flex-col-reverse gap-2 sm:flex-row sm:justify-end", t),
       ...a
     }
   );
 }
-function p({
+function z({
   className: t,
   ...a
 }) {
-  return /* @__PURE__ */ e.jsx(
-    o.Title,
+  return /* @__PURE__ */ e(
+    g,
     {
       "data-slot": "alert-dialog-title",
-      className: l("text-lg font-semibold", t),
+      className: o("text-lg font-semibold", t),
+      ...a
+    }
+  );
+}
+function h({
+  className: t,
+  ...a
+}) {
+  return /* @__PURE__ */ e(
+    u,
+    {
+      "data-slot": "alert-dialog-description",
+      className: o("text-muted-foreground text-sm", t),
       ...a
     }
   );
@@ -89,44 +102,31 @@ function j({
   className: t,
   ...a
 }) {
-  return /* @__PURE__ */ e.jsx(
-    o.Description,
-    {
-      "data-slot": "alert-dialog-description",
-      className: l("text-muted-foreground text-sm", t),
-      ...a
-    }
-  );
+  return /* @__PURE__ */ e(f, { className: o(l(), t), ...a });
 }
-function A({
+function O({
   className: t,
   ...a
 }) {
-  return /* @__PURE__ */ e.jsx(o.Action, { className: l(r(), t), ...a });
-}
-function D({
-  className: t,
-  ...a
-}) {
-  return /* @__PURE__ */ e.jsx(
-    o.Cancel,
+  return /* @__PURE__ */ e(
+    m,
     {
-      className: l(r({ variant: "outline" }), t),
+      className: o(l({ variant: "outline" }), t),
       ...a
     }
   );
 }
 export {
-  g as AlertDialog,
-  A as AlertDialogAction,
-  D as AlertDialogCancel,
-  m as AlertDialogContent,
-  j as AlertDialogDescription,
-  x as AlertDialogFooter,
-  f as AlertDialogHeader,
-  i as AlertDialogOverlay,
-  n as AlertDialogPortal,
-  p as AlertDialogTitle,
-  u as AlertDialogTrigger
+  b as AlertDialog,
+  j as AlertDialogAction,
+  O as AlertDialogCancel,
+  T as AlertDialogContent,
+  h as AlertDialogDescription,
+  C as AlertDialogFooter,
+  w as AlertDialogHeader,
+  x as AlertDialogOverlay,
+  p as AlertDialogPortal,
+  z as AlertDialogTitle,
+  y as AlertDialogTrigger
 };
 //# sourceMappingURL=index.es3.js.map

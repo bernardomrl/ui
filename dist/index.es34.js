@@ -1,14 +1,14 @@
-import { j as i } from "./index.es49.js";
-import * as n from "@radix-ui/react-separator";
-import { cn as e } from "./index.es47.js";
-function s({
+import { jsx as i } from "react/jsx-runtime";
+import { Root as n } from "./index.es93.js";
+import { cn as e } from "./index.es48.js";
+function d({
   className: t,
   orientation: o = "horizontal",
   decorative: r = !0,
   ...a
 }) {
-  return /* @__PURE__ */ i.jsx(
-    n.Root,
+  return /* @__PURE__ */ i(
+    n,
     {
       "data-slot": "separator",
       decorative: r,
@@ -22,6 +22,6 @@ function s({
   );
 }
 export {
-  s as Separator
+  d as Separator
 };
 //# sourceMappingURL=index.es34.js.map

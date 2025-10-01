@@ -1,0 +1,1 @@
+{"version":3,"file":"index.es463.js","sources":["../node_modules/d3-shape/src/constant.js"],"sourcesContent":["export default function(x) {\n  return function constant() {\n    return x;\n  };\n}\n"],"names":["constant","x"],"mappings":"AAAe,SAAAA,EAASC,GAAG;AACzB,SAAO,WAAoB;AACzB,WAAOA;AAAA,EACT;AACF;","x_google_ignoreList":[0]}

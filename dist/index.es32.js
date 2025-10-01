@@ -1,51 +1,51 @@
-import { j as r } from "./index.es49.js";
-import * as o from "@radix-ui/react-scroll-area";
-import { cn as s } from "./index.es47.js";
-function n({
-  className: e,
-  children: l,
-  ...a
+import { jsxs as t, jsx as l } from "react/jsx-runtime";
+import { Root as s, Viewport as c, Corner as n, ScrollAreaScrollbar as i, ScrollAreaThumb as u } from "./index.es90.js";
+import { cn as a } from "./index.es48.js";
+function p({
+  className: o,
+  children: r,
+  ...e
 }) {
-  return /* @__PURE__ */ r.jsxs(
-    o.Root,
+  return /* @__PURE__ */ t(
+    s,
     {
       "data-slot": "scroll-area",
-      className: s("relative", e),
-      ...a,
+      className: a("relative", o),
+      ...e,
       children: [
-        /* @__PURE__ */ r.jsx(
-          o.Viewport,
+        /* @__PURE__ */ l(
+          c,
           {
             "data-slot": "scroll-area-viewport",
             className: "focus-visible:ring-ring/50 size-full rounded-[inherit] transition-[color,box-shadow] outline-none focus-visible:ring-[3px] focus-visible:outline-1",
-            children: l
+            children: r
           }
         ),
-        /* @__PURE__ */ r.jsx(t, {}),
-        /* @__PURE__ */ r.jsx(o.Corner, {})
+        /* @__PURE__ */ l(d, {}),
+        /* @__PURE__ */ l(n, {})
       ]
     }
   );
 }
-function t({
-  className: e,
-  orientation: l = "vertical",
-  ...a
+function d({
+  className: o,
+  orientation: r = "vertical",
+  ...e
 }) {
-  return /* @__PURE__ */ r.jsx(
-    o.ScrollAreaScrollbar,
+  return /* @__PURE__ */ l(
+    i,
     {
       "data-slot": "scroll-area-scrollbar",
-      orientation: l,
-      className: s(
+      orientation: r,
+      className: a(
         "flex touch-none p-px transition-colors select-none",
-        l === "vertical" && "h-full w-2.5 border-l border-l-transparent",
-        l === "horizontal" && "h-2.5 flex-col border-t border-t-transparent",
-        e
+        r === "vertical" && "h-full w-2.5 border-l border-l-transparent",
+        r === "horizontal" && "h-2.5 flex-col border-t border-t-transparent",
+        o
       ),
-      ...a,
-      children: /* @__PURE__ */ r.jsx(
-        o.ScrollAreaThumb,
+      ...e,
+      children: /* @__PURE__ */ l(
+        u,
         {
           "data-slot": "scroll-area-thumb",
           className: "bg-border relative flex-1 rounded-full"
@@ -55,7 +55,7 @@ function t({
   );
 }
 export {
-  n as ScrollArea,
-  t as ScrollBar
+  p as ScrollArea,
+  d as ScrollBar
 };
 //# sourceMappingURL=index.es32.js.map

@@ -1,12 +1,13 @@
-import { j as a } from "./index.es49.js";
-import { Slot as o } from "@radix-ui/react-slot";
-import { ChevronRight as i, MoreHorizontal as l } from "lucide-react";
-import { cn as t } from "./index.es47.js";
-function b({ ...r }) {
-  return /* @__PURE__ */ a.jsx("nav", { "aria-label": "breadcrumb", "data-slot": "breadcrumb", ...r });
+import { jsx as a, jsxs as n } from "react/jsx-runtime";
+import { Root as o } from "./index.es56.js";
+import i from "./index.es57.js";
+import l from "./index.es58.js";
+import { cn as t } from "./index.es48.js";
+function f({ ...r }) {
+  return /* @__PURE__ */ a("nav", { "aria-label": "breadcrumb", "data-slot": "breadcrumb", ...r });
 }
-function p({ className: r, ...e }) {
-  return /* @__PURE__ */ a.jsx(
+function g({ className: r, ...e }) {
+  return /* @__PURE__ */ a(
     "ol",
     {
       "data-slot": "breadcrumb-list",
@@ -19,7 +20,7 @@ function p({ className: r, ...e }) {
   );
 }
 function x({ className: r, ...e }) {
-  return /* @__PURE__ */ a.jsx(
+  return /* @__PURE__ */ a(
     "li",
     {
       "data-slot": "breadcrumb-item",
@@ -28,14 +29,13 @@ function x({ className: r, ...e }) {
     }
   );
 }
-function f({
+function h({
   asChild: r,
   className: e,
   ...s
 }) {
-  const n = r ? o : "a";
-  return /* @__PURE__ */ a.jsx(
-    n,
+  return /* @__PURE__ */ a(
+    r ? o : "a",
     {
       "data-slot": "breadcrumb-link",
       className: t("hover:text-foreground transition-colors", e),
@@ -43,8 +43,8 @@ function f({
     }
   );
 }
-function j({ className: r, ...e }) {
-  return /* @__PURE__ */ a.jsx(
+function N({ className: r, ...e }) {
+  return /* @__PURE__ */ a(
     "span",
     {
       "data-slot": "breadcrumb-page",
@@ -56,12 +56,12 @@ function j({ className: r, ...e }) {
     }
   );
 }
-function g({
+function B({
   children: r,
   className: e,
   ...s
 }) {
-  return /* @__PURE__ */ a.jsx(
+  return /* @__PURE__ */ a(
     "li",
     {
       "data-slot": "breadcrumb-separator",
@@ -69,12 +69,12 @@ function g({
       "aria-hidden": "true",
       className: t("[&>svg]:size-3.5", e),
       ...s,
-      children: r ?? /* @__PURE__ */ a.jsx(i, {})
+      children: r ?? /* @__PURE__ */ a(i, {})
     }
   );
 }
-function h({ className: r, ...e }) {
-  return /* @__PURE__ */ a.jsxs(
+function k({ className: r, ...e }) {
+  return /* @__PURE__ */ n(
     "span",
     {
       "data-slot": "breadcrumb-ellipsis",
@@ -83,19 +83,19 @@ function h({ className: r, ...e }) {
       className: t("flex size-9 items-center justify-center", r),
       ...e,
       children: [
-        /* @__PURE__ */ a.jsx(l, { className: "size-4" }),
-        /* @__PURE__ */ a.jsx("span", { className: "sr-only", children: "More" })
+        /* @__PURE__ */ a(l, { className: "size-4" }),
+        /* @__PURE__ */ a("span", { className: "sr-only", children: "More" })
       ]
     }
   );
 }
 export {
-  b as Breadcrumb,
-  h as BreadcrumbEllipsis,
+  f as Breadcrumb,
+  k as BreadcrumbEllipsis,
   x as BreadcrumbItem,
-  f as BreadcrumbLink,
-  p as BreadcrumbList,
-  j as BreadcrumbPage,
-  g as BreadcrumbSeparator
+  h as BreadcrumbLink,
+  g as BreadcrumbList,
+  N as BreadcrumbPage,
+  B as BreadcrumbSeparator
 };
 //# sourceMappingURL=index.es8.js.map

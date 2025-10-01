@@ -8,7 +8,7 @@ type ThemeProviderState = {
     theme: Theme;
     setTheme: (theme: Theme) => void;
 };
-export declare function ThemeProvider({ children, defaultTheme, storageKey, ...props }: ThemeProviderProps): import("react/jsx-dev-runtime").JSX.Element;
+export declare function ThemeProvider({ children, defaultTheme, storageKey, }: ThemeProviderProps): import("react/jsx-dev-runtime").JSX.Element;
 export declare const useTheme: () => ThemeProviderState;
 export {};
 //# sourceMappingURL=theme.d.ts.map

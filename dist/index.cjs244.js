@@ -1,0 +1,2 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const s=require("./index.cjs442.js"),a=require("./index.cjs443.js");function u(n,o,c){const t=a.toDate(n,c?.in);if(isNaN(o))return s.constructFrom(n,NaN);if(!o)return t;const r=t.getDate(),e=s.constructFrom(n,t.getTime());e.setMonth(t.getMonth()+o+1,0);const i=e.getDate();return r>=i?e:(t.setFullYear(e.getFullYear(),e.getMonth(),r),t)}exports.addMonths=u;exports.default=u;
+//# sourceMappingURL=index.cjs244.js.map
